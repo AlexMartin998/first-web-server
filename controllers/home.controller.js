@@ -3,9 +3,6 @@
 const path = require('path');
 
 const homeController = (req, res) =>
-  res.render('home', {
-    name: 'Alex',
-    os: 'Arch Linux',
-  });
+  res.sendFile(path.join(__dirname + './../public/index.html'));
 
 module.exports = homeController;

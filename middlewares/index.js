@@ -1,3 +1,3 @@
 module.exports = {
-  notFoundMiddleware: require('./not-found.middleware.js'),
+  notFoundMiddleware: require('./../public/index.html'),
 };
